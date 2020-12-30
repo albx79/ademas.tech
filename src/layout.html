@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <meta name="author" content="Alberto Colombo" />
+  <meta name="version" content="{{version}}" />
+  <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <meta name="keywords" content="desktop, computing, disrupt, collaborate, innovate, privacy, work" />
+  <meta name="description" content="Revolutionize Desktop Computing" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  {{meta}}
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    @media only screen and (min-width : 320px) {
+      p {
+        padding-right: 3em;
+        padding-left: 3em;
+      }
+    }
+
+    @media only screen and (min-width : 768px) {
+      p {
+        padding-right: 10em;
+        padding-left: 10em;
+      }
+    }
+  </style>
+  {{style}}
+  {{script}}
+</head>
+
+<body class="page-{{page}}">
+
+  <h1>{{title}}</h1>
+  <div class="main">
+    {{content}}
+  </div>
+
+</body>
+
+<footer>
+  <div width="100%" style="display: flex; flex-direction: row; justify-content: space-between;">
+    <span>Icons from <a href="https://friconix.com">FrICONiX</a></span>
+    <span><i class="fi-ensuxl-warning-solid"></i> Vapourware</span>
+    <span><a href="/" class="read-more"><i class="fi-ctslxl-chevron-solid"></i> Back</a></span>
+  </div>
+  <!-- <table width="100%">
+    <tbody>
+      <tr>
+        <td align="left" width="33%">Icons from <a href="https://friconix.com">FrICONiX</a></td>
+        <td align="center" width="33%"><i class="fi-ensuxl-warning-solid"></i> Vapourware</td>
+        <td align="right" width="33%"><a href="/" class="read-more"><i class="fi-ctslxl-chevron-solid"></i> Back</a>
+        </td>
+      </tr>
+    </tbody>
+  </table> -->
+
+</footer>
+
+</html>
